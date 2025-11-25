@@ -1,3 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/astrel_dev
+    username: astrel_user
+    password: astrel_pass
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update   # 开发环境先用 update，自动建表；以后可以换成 validate
+    show-sql: true        # 控制台打印 SQL，方便你看发生了什么
+    properties:
+      hibernate.format_sql: true
+
 astrel:
   env: dev
 
