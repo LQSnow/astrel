@@ -1,0 +1,12 @@
+# Java / Gradle
+backend/build/
+backend/out/
+backend/.gradle/
+*.log
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# macOS
+.DS_Store

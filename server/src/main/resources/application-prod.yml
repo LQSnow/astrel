@@ -1,0 +1,6 @@
+astrel:
+  env: prod
+
+logging:
+  level:
+    root: INFO

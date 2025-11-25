@@ -1,0 +1,6 @@
+astrel:
+  env: dev
+
+logging:
+  level:
+    root: INFO
