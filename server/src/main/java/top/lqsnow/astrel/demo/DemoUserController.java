@@ -31,7 +31,6 @@ public class DemoUserController {
         return ApiResponse.success(all);
     }
 
-    // 简单的请求体类，可以放这儿或者单独建一个文件
     @Getter
     @Setter
     public static class CreateDemoUserRequest {
